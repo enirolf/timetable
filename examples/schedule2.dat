@@ -1,0 +1,18 @@
+# Dag Uur Minuut Duur Type Vak
+1 9 0 120 1 Inleiding Programmeren
+1 11 0 360 4 Zelfstudie
+2 11 0 120 1 Architectuur en Computerorganisatie
+2 13 0 130 4 Zelfstudie
+2 15 0 120 2 Architectuur en Computerorganisatie
+3 9 0 120 3 Academische Vaardigheden Informatica
+3 11 0 120 2 Inleiding Programmeren
+3 13 0 120 1 Inleiding Programmeren
+3 15 0 120 4 Zelfstudie
+4 11 0 120 4 Zelfstudie
+4 13 0 120 2 Inleiding Programmeren
+4 15 0 120 4 Zelfstudie
+5 9 0 120 2 Inleiding Programmeren
+5 11 0 120 1 Architectuur en Computerorganisatie
+5 13 0 120 2 Architectuur en Computerorganisatie
+6 11 0 240 4 Zelfstudie
+7 17 0 120 4 Zelfstudie
