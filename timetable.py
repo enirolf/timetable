@@ -62,4 +62,4 @@ if __name__ == '__main__':
     ax2.set_xticklabels(DAYS)
     ax2.get_yaxis().set_visible(False)
 
-    plt.savefig('{0}.png'.format(args.output.split('.')[0]), dpi=200)
+    plt.savefig('{0}.png'.format(args.output.split('.')[0]), dpi=200, transparent=True, bbox_inches='tight')
