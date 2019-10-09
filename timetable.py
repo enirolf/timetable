@@ -12,7 +12,7 @@ DAYS = [
     'Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag',
     'Zondag'
 ]
-COLORS = ['lightgreen', 'salmon', 'lightblue', 'violet', 'turquoise']
+COLORS = ['#CC6677', '#DDCC77', '#88CCEE', '#44AA99', '#AD66A1']
 TYPE = ['Hoorcollege', 'Werkcollege', 'Tutoraat', 'Zelfstudie', 'Overig']
 INPUT = 'schedule.dat'
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
         lines = [l.strip() for l in f.readlines()]
 
         for line in lines:
-            if line[0] == '#':
+            if line and line[0] == '#':
                 continue
 
             data = line.split(maxsplit=5)
